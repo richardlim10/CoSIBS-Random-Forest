@@ -1,5 +1,5 @@
 ---
-title: "CoSIBS FInal Project"
+title: "CoSIBS Final"
 author: "Richard Lim"
 date: '2022-07-24'
 output: html_document
@@ -21,10 +21,10 @@ library(rpart.plot)
 library(ggplot2)
 library(randomForest)
 #Uploading data from OneDrive repository.
-screener_2018 <- read_sas("C:\\Users\\hunte\\Desktop\\CoSIBS\\Project\\nsch_2018_screener_SAS\\nsch_2018_screener.sas7bdat")
-topical_2018 <- read_sas("C:\\Users\\hunte\\Desktop\\CoSIBS\\Project\\nsch_2018_topical_SAS\\nsch_2018_topical.sas7bdat")
-screener_2019 <- read_sas("C:\\Users\\hunte\\Desktop\\CoSIBS\\Project\\nsch_2019_screener_SAS\\nsch_2019_screener.sas7bdat")
-topical_2019 <- read_sas("C:\\Users\\hunte\\Desktop\\CoSIBS\\Project\\nsch_2019_topical_SAS\\nsch_2019_topical.sas7bdat")
+screener_2018 <- read_sas("/Users/richardlim/Desktop/Cosibs/project/nsch_2018_screener_SAS/nsch_2018_screener.sas7bdat")
+topical_2018 <- read_sas("/Users/richardlim/Desktop/Cosibs/project/nsch_2018_topical_SAS/nsch_2018_topical.sas7bdat")
+screener_2019 <- read_sas("/Users/richardlim/Desktop/Cosibs/project/nsch_2019_screener_SAS/nsch_2019_screener.sas7bdat")
+topical_2019 <- read_sas("/Users/richardlim/Desktop/Cosibs/project/nsch_2019_topical_SAS/nsch_2019_topical.sas7bdat")
 ```
 
 ## II: Selecting variables of interest
